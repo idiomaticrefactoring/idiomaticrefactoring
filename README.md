@@ -1,4 +1,4 @@
-# Zejun Zhang
+# Code Quality Assurance
 https://www.free-css.com/template-categories/personal?start=108
 
 Thanks for downloading this template!
