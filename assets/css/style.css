@@ -105,24 +105,31 @@ html[lang="zh"] .i18n-en { display: none !important; }
   display: flex;
   gap: 8px;
 }
+/* Distinguished Paper Award */
 .pub-award {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  margin-right: 10px;
-  padding: 3px 9px;
-  border: 1px solid #c9a227;
-  border-radius: 4px;
-  background: #fffaf0;
-  color: #8b1e1e;
-  font-size: 0.82rem;
+  gap: 7px;
+
+  height: 36px;
+  padding: 0 13px;
+
+  border: 1px solid #c94a4a;
+  border-radius: 6px;
+
+  background: #fff5f5;
+  color: #a51d1d;
+
+  font-size: 0.90rem;
   font-weight: 700;
-  line-height: 1.4;
+  letter-spacing: 0.1px;
+
+  box-sizing: border-box;
 }
 
 .award-icon {
-  color: #c9a227;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1;
 }
 .social-links a {
   width: 34px;
