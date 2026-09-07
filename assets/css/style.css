@@ -105,7 +105,25 @@ html[lang="zh"] .i18n-en { display: none !important; }
   display: flex;
   gap: 8px;
 }
+.pub-award {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 10px;
+  padding: 3px 9px;
+  border: 1px solid #c9a227;
+  border-radius: 4px;
+  background: #fffaf0;
+  color: #8b1e1e;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
 
+.award-icon {
+  color: #c9a227;
+  font-size: 0.9rem;
+}
 .social-links a {
   width: 34px;
   height: 34px;
