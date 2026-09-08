@@ -1,11 +1,4 @@
-# Code Quality Assurance
-https://www.free-css.com/template-categories/personal?start=108
+# Zejun Zhang
 
-Thanks for downloading this template!
+If you find my open‑source implementations and research artifacts useful, please consider starring ⭐ the relevant repositories.
 
-Fork from https://github.com/sidongfeng/sidongfeng.github.io
-
-Template Name: iPortfolio
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
