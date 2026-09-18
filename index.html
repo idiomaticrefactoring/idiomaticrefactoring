@@ -39,6 +39,8 @@
       <a href="#interests" class="i18n-zh">研究方向</a>
       <a href="#publications" class="i18n-en">Publications</a>
       <a href="#publications" class="i18n-zh">论文</a>
+      <a href="#benchmarks" class="i18n-en">Benchmarks</a>
+      <a href="#benchmarks" class="i18n-zh">基准数据集</a>
       <a href="#awards" class="i18n-en">Awards</a>
       <a href="#awards" class="i18n-zh">荣誉</a>
       <a href="#invited-talks" class="i18n-en">Talks</a>
@@ -65,7 +67,7 @@
     <p class="bio-block i18n-zh">现任南京大学准聘助理教授。此前任职于南洋理工大学（NTU），担任 Research Scientist。于澳大利亚国立大学（ANU）计算机学院获博士学位，导师为 <a href="https://people.csiro.au/X/Z/Zhenchang-Xing/" target="_blank">邢振昌</a>教授。
     </p>
     <p class="bio-block i18n-zh">研究方向聚焦可信智能软件工程，覆盖软件全生命周期，重点关注 AI 辅助开发的可理解性、可靠性与一致性。首先致力于实现人与 AI 之间对程序语义、开发意图及业务需求的双向理解；在此基础上，借助程序分析与重构优化技术，保证 AI 生成代码的质量；最终在软件持续迭代过程中，维持代码、文档、UI、配置、接口等各类工件之间的语义同步。</p>
-    <p class="bio-block i18n-zh">在 ICSE、FSE、TSE 等软件工程领域顶级会议和期刊上发表多篇论文，并获 ICSE 2024 ACM SIGSOFT 杰出论文奖。重视学术成果与实际开发的衔接，积极将研究落地为可用工具，已开发 <a href="https://plugins.jetbrains.com/plugin/20107-ridiom" target="_blank">RIdiom IDE 插件</a>、<a href="https://pypi.org/project/RefactoringIdioms/" target="_blank">RefactoringIdioms Python 包</a>，以及 <a href="https://zzj.pythonanywhere.com/" target="_blank">DeIdiom 在线平台</a>。</p>
+    <p class="bio-block i18n-zh">在 ICSE、FSE、TSE 等软件工程领域顶级会议和期刊上发表多篇论文，并获 ICSE 2024 ACM SIGSOFT 杰出论文奖。重视学术成果与实际开发的衔接，积极将研究落地为可用工具，已开发 <a href="https://github.com/idiomaticrefactoring/LintConfig" target="_blank">LintCFG AI Skill</a>（DSL 驱动的代码规范配置生成工具链）、<a href="https://plugins.jetbrains.com/plugin/20107-ridiom" target="_blank">RIdiom IDE 插件</a>、<a href="https://pypi.org/project/RefactoringIdioms/" target="_blank">RefactoringIdioms Python 包</a>，以及 <a href="https://zzj.pythonanywhere.com/" target="_blank">DeIdiom 在线平台</a>。</p>
 
     <p class="bio-block i18n-en">My research focuses on trustworthy intelligent software engineering, addressing the entire software lifecycle with a progressive focus on three core objectives of AI-assisted development: understandability, reliability, and consistency. 
       The work aims to first achieve mutual understanding between developers and AI systems regarding program semantics, developer intent, and business requirements. 
@@ -81,8 +83,10 @@
     <!-- <p class="bio-block i18n-zh">在软件工程领域顶级会议和期刊 ICSE、FSE、TSE 等发表多篇论文，
   相关研究获 ICSE 2024 ACM SIGSOFT 杰出论文奖</p> -->
 
-    <p class="bio-block i18n-en">A defining theme of my research is bridging research and practice through usable tools. I developed the <a href="https://plugins.jetbrains.com/plugin/20107-ridiom" target="_blank">RIdiom IDE plugin</a>, the <a href="https://pypi.org/project/RefactoringIdioms/" target="_blank">RefactoringIdioms Python package</a>, and the <a href="https://zzj.pythonanywhere.com/" target="_blank">DeIdiom web platform</a>, bringing research ideas into practical software development tools.
+    <p class="bio-block i18n-en">A defining theme of my research is bridging research and practice through usable tools. I developed the <a href="https://github.com/idiomaticrefactoring/LintConfig" target="_blank">LintCFG AI skill</a>, a DSL-driven linter configuration generation toolchain, followed by the <a href="https://plugins.jetbrains.com/plugin/20107-ridiom" target="_blank">RIdiom IDE plugin</a>, the <a href="https://pypi.org/project/RefactoringIdioms/" target="_blank">RefactoringIdioms Python package</a>, and the <a href="https://zzj.pythonanywhere.com/" target="_blank">DeIdiom web platform</a>, bringing research ideas into practical software development tools.
 </p>
+    <p class="bio-block i18n-en">Beyond tools, I also release open-source benchmarks and datasets for the community, including <a href="https://huggingface.co/datasets/somethingone/MULocBench" target="_blank">MULocBench</a>, a benchmark for localizing code and non-code issues in software projects.</p>
+    <p class="bio-block i18n-zh">除工具之外，我也向社区开源基准数据集，包括面向软件项目中代码与非代码问题定位的基准 <a href="https://huggingface.co/datasets/somethingone/MULocBench" target="_blank">MULocBench</a>。</p>
     <!-- <p class="bio-block i18n-zh">研究注重<strong>推动学术研究与实际应用的衔接</strong>，致力于将研究成果转化为可用的工具。
   已开发 <a href="https://plugins.jetbrains.com/plugin/20107-ridiom" target="_blank">RIdiom IDE 插件</a>、<a href="https://pypi.org/project/RefactoringIdioms/" target="_blank">RefactoringIdioms Python 包</a>，以及 <a href="https://zzj.pythonanywhere.com/" target="_blank">DeIdiom 在线平台</a>，将研究成果转化为支持实际软件开发的工具。</p> -->
 
@@ -379,6 +383,48 @@
     </ul>
   </section>
 
+  <section id="benchmarks" class="section">
+    <h2 class="section-heading i18n-en">Benchmarks</h2>
+    <h2 class="section-heading i18n-zh">基准数据集</h2>
+    <div class="tool-grid">
+      <div class="tool-card">
+        <h4>MULocBench</h4>
+        <div class="tool-sub i18n-en">
+          Benchmark for Issue Localization · 1,100 Issues · 46 Python Projects
+        </div>
+        <div class="tool-sub i18n-zh">
+          Issue 定位基准 · 1,100 个 Issue · 46 个 Python 项目
+        </div>
+
+        <p class="i18n-en">
+          A benchmark for localizing code and non-code issues in software
+          projects. Beyond pull-request issues and code locations, MULocBench
+          covers diverse issue types, root causes, location scopes, and file
+          types — including commits, comments, configurations, and
+          documentation — offering a realistic testbed for issue resolution.
+          State-of-the-art localization methods and five LLM-based prompting
+          strategies remain below 40% Acc@5 and F1 even at the file level.
+        </p>
+        <p class="i18n-zh">
+          面向软件项目中代码与非代码问题定位的基准数据集。区别于已有基准仅关注
+          Pull Request 类 Issue 与代码位置，MULocBench 覆盖更多样的 Issue 类型、
+          根因、定位范围与文件类型（包括提交、评论、配置文件与文档），为 Issue
+          解决提供了更贴近真实的评测平台。实验显示，即使是文件级定位，当前最优
+          方法与五种 LLM 提示策略的 Acc@5 与 F1 仍低于 40%。
+        </p>
+
+        <div class="pub-links">
+          <a class="pub-link pdf"
+             href="https://arxiv.org/abs/2509.25242"
+             target="_blank">Paper</a>
+          <a class="pub-link data"
+             href="https://huggingface.co/datasets/somethingone/MULocBench"
+             target="_blank">Dataset</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="awards" class="section">
     <h2 class="section-heading i18n-en">Awards</h2>
     <h2 class="section-heading i18n-zh">荣誉</h2>
@@ -533,7 +579,7 @@
     setLang(html.lang === "en" ? "zh" : "en");
   });
 
-  const sections = ["interests", "tools", "publications", "awards", "services"]
+  const sections = ["interests", "tools", "publications", "benchmarks", "awards", "services"]
     .map((id) => document.getElementById(id));
   const navLinks = document.querySelectorAll(".top-nav a");
 
