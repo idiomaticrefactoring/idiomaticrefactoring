@@ -270,6 +270,13 @@ html[lang="zh"] .i18n-en { display: none !important; }
 .tool-card h4 { font-size: 1rem; color: var(--accent); }
 .tool-card .tool-sub { font-size: .8rem; color: var(--text-light); margin: 2px 0 10px; }
 .tool-card p { font-size: .9rem; color: var(--text-muted); margin-bottom: 8px; }
+.tool-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin-top: 10px;
+  font-size: .85rem;
+}
 
 .news-list { list-style: none; }
 .news-list li {
